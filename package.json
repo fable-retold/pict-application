@@ -31,6 +31,7 @@
         "browser-env": "^3.3.0",
         "eslint": "^9.28.0",
         "pict": "^1.0.348",
+        "pict-docuserve": "^0.1.5",
         "pict-provider": "^1.0.10",
         "pict-view": "^1.0.66",
         "quackage": "^1.1.0",
