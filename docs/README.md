@@ -106,9 +106,9 @@ Pict Application follows a structured lifecycle with hooks at each stage:
 ### Initialization Phase
 
 ```
-onBeforeInitialize() → onInitialize() → [Provider Init] → [View Init] → onAfterInitialize()
+onBeforeInitialize() -> onInitialize() -> [Provider Init] -> [View Init] -> onAfterInitialize()
     ↓
-[AutoSolve] → [AutoRender] → onCompletionOfInitialize()
+[AutoSolve] -> [AutoRender] -> onCompletionOfInitialize()
 ```
 
 ### Solve Phase
@@ -116,31 +116,31 @@ onBeforeInitialize() → onInitialize() → [Provider Init] → [View Init] → 
 The solve phase processes data and prepares views for rendering:
 
 ```
-onPreSolve() → onBeforeSolve() → [Provider Solve] → [View Solve] → onSolve() → onAfterSolve()
+onPreSolve() -> onBeforeSolve() -> [Provider Solve] -> [View Solve] -> onSolve() -> onAfterSolve()
 ```
 
 ### Render Phase
 
 ```
-onBeforeRender() → onRender() → [View Render] → onAfterRender()
+onBeforeRender() -> onRender() -> [View Render] -> onAfterRender()
 ```
 
 ### Login Phase
 
 ```
-onBeforeLoginAsync() → onLoginAsync() → onAfterLoginAsync() → [AutoLoadData]
+onBeforeLoginAsync() -> onLoginAsync() -> onAfterLoginAsync() -> [AutoLoadData]
 ```
 
 ### Data Loading Phase
 
 ```
-onBeforeLoadDataAsync() → [Provider Load] → onLoadDataAsync() → onAfterLoadDataAsync()
+onBeforeLoadDataAsync() -> [Provider Load] -> onLoadDataAsync() -> onAfterLoadDataAsync()
 ```
 
 ### Data Saving Phase
 
 ```
-onBeforeSaveDataAsync() → [Provider Save] → onSaveDataAsync() → onAfterSaveDataAsync()
+onBeforeSaveDataAsync() -> [Provider Save] -> onSaveDataAsync() -> onAfterSaveDataAsync()
 ```
 
 ### Marshal Phases
@@ -148,11 +148,11 @@ onBeforeSaveDataAsync() → [Provider Save] → onSaveDataAsync() → onAfterSav
 Data marshaling between views and AppData:
 
 ```
-// From Views → AppData
-onBeforeMarshalFromViews() → [View Marshal] → onMarshalFromViews() → onAfterMarshalFromViews()
+// From Views -> AppData
+onBeforeMarshalFromViews() -> [View Marshal] -> onMarshalFromViews() -> onAfterMarshalFromViews()
 
-// From AppData → Views
-onBeforeMarshalToViews() → [View Marshal] → onMarshalToViews() → onAfterMarshalToViews()
+// From AppData -> Views
+onBeforeMarshalToViews() -> [View Marshal] -> onMarshalToViews() -> onAfterMarshalToViews()
 ```
 
 
