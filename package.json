@@ -1,6 +1,6 @@
 {
     "name": "pict-application",
-    "version": "1.0.33",
+    "version": "1.0.34",
     "description": "Application base class for a pict view-based application",
     "main": "source/Pict-Application.js",
     "scripts": {
