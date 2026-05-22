@@ -31,10 +31,10 @@
         "browser-env": "^3.3.0",
         "eslint": "^9.28.0",
         "pict": "^1.0.368",
-        "pict-docuserve": "^1.0.1",
+        "pict-docuserve": "^1.3.3",
         "pict-provider": "^1.0.13",
         "pict-view": "^1.0.68",
-        "quackage": "^1.2.3",
+        "quackage": "^1.2.4",
         "typescript": "^5.9.3"
     },
     "mocha": {
