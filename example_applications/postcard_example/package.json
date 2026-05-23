@@ -9,6 +9,14 @@
     },
     "author": "steven",
     "license": "MIT",
+    "retold": {
+        "ExampleApplication": {
+            "Stage": true,
+            "Title": "Postkard",
+            "Summary": "Bootstrapping pattern for pict-application: providers, configuration-only views, lifecycle hooks, and a pluggable form theme.",
+            "Complexity": "Basic"
+        }
+    },
     "copyFilesSettings": {
         "whenFileExists": "overwrite"
     },

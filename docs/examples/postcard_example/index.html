@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Postkard">
+
+		<title>Das Postkärd</title>
+
+		<!-- Simple purecss framework https://purecss.io/ -->
+		<link href="css/pure.min.css" rel="stylesheet">
+		<link href="css/postcard.css" rel="stylesheet">
+		<!-- PICT Dynamic View CSS Container -->
+		<style id="PICT-CSS"></style>
+
+		<!-- Load the PICT library -->
+		<script src="./js/pict.min.js" type="text/javascript"></script>
+		<!-- Load the Application -->
+		<script type="text/javascript">
+//<![CDATA[
+		// Safely (for most browsers?) waits and loads pict and the application whenthe DOM is ready
+		Pict.safeOnDocumentReady(() => { Pict.safeLoadPictApplication(PostcardApplication, 2)});
+//]]>
+		</script>
+	</head>
+	<body>
+		<!-- where the Navigation view puts its content -->
+
+		<div id="layout">
+			<!-- Menu toggle -->
+			<a href="#menu" id="menuLink" class="menu-link">
+				<!-- Hamburger icon -->
+				<span></span>
+			</a>
+
+			<div id="menu">
+				<div id="Postcard-Navigation-Container" class="pure-menu"></div>
+			</div>
+
+			<div id="Postcard-Content-Container">
+
+
+			</div>
+		</div>
+		<!-- Load the Postcard PICT Application -->
+		<script src="./postcard_application.min.js" type="text/javascript"></script>
+	</body>
+</html>

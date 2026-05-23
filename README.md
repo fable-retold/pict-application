@@ -1,5 +1,7 @@
 # Pict Application
 
+> **[&#9654; Read the Pict-Application Documentation](https://stevenvelozo.github.io/pict-application/)** &mdash; interactive docs with the full API reference.
+
 Application base class for building pict view-based applications. Provides structured lifecycle management, view coordination, and data marshaling for web, console, and other applications where the UI is primarily represented as text strings.
 
 ## Installation

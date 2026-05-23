@@ -9,3 +9,9 @@
 
 [GitHub](https://github.com/stevenvelozo/pict-application)
 [Get Started](#pict-application)
+
+<!-- docuserve:examples:start -->
+| Example | Complexity | Launch |
+|---------|------------|--------|
+| [Postkard](examples/postcard%5Fexample/README.md) | Basic | [&#9654; Launch](examples/postcard%5Fexample/index.html) |
+<!-- docuserve:examples:end -->

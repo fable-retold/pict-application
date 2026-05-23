@@ -2,6 +2,6 @@
 	"Name": "pict-application",
 	"Version": "1.0.34",
 	"Description": "Application base class for a pict view-based application",
-	"GeneratedAt": "2026-05-22T05:42:48.192Z",
-	"GitCommit": "58cabec"
+	"GeneratedAt": "2026-05-23T01:50:35.693Z",
+	"GitCommit": "b7ebca9"
 }

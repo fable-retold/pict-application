@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-22T05:42:48.045Z",
+	"Generated": "2026-05-23T01:50:35.525Z",
 	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
@@ -36,6 +36,15 @@
 						"Path": "EXAMPLES.md"
 					}
 				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Postkard",
+						"Path": "examples/postcard_example/README.md"
+					}
+				]
 			}
 		],
 		"DocFiles": [
@@ -48,6 +57,10 @@
 			"_cover.md",
 			"_sidebar.md",
 			"_version.json",
+			"examples/README.md",
+			"examples/postcard_example/README.md",
+			"examples/postcard_example/index.html",
+			"examples/postcard_example/postcard_application.min.js",
 			"index.html",
 			"retold-catalog.json",
 			"retold-keyword-index.json"

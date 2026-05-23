@@ -394,4 +394,4 @@ _Pict.LogControlFlow = true; // Log lifecycle events
 
 - [Pict Application GitHub](https://github.com/stevenvelozo/pict-application)
 - [Pict View Documentation](https://github.com/stevenvelozo/pict-view)
-- [Example Applications](../example_applications/)
+- [Example Applications](https://github.com/stevenvelozo/pict-application/tree/main/example_applications)
