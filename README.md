@@ -1,6 +1,6 @@
 # Pict Application
 
-> **[&#9654; Read the Pict-Application Documentation](https://stevenvelozo.github.io/pict-application/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Pict-Application Documentation](https://fable-retold.github.io/pict-application/)** &mdash; interactive docs with the full API reference.
 
 Application base class for building pict view-based applications. Provides structured lifecycle management, view coordination, and data marshaling for web, console, and other applications where the UI is primarily represented as text strings.
 
@@ -39,17 +39,17 @@ myApp.initialize();
 
 ## Related Projects
 
-- [pict](https://github.com/stevenvelozo/pict) - Core Pict framework
-- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Provider base class
-- [fable](https://github.com/stevenvelozo/fable) - Service provider framework
+- [pict](https://github.com/fable-retold/pict) - Core Pict framework
+- [pict-view](https://github.com/fable-retold/pict-view) - View base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Provider base class
+- [fable](https://github.com/fable-retold/fable) - Service provider framework
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Data provider base class
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [pict-view](https://github.com/fable-retold/pict-view) - View base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Data provider base class
+- [fable](https://github.com/fable-retold/fable) - Application services framework
 
 ## License
 

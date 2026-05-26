@@ -599,13 +599,13 @@ npm run lint
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - Core Pict framework
-- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Provider base class
-- [fable](https://github.com/stevenvelozo/fable) - Service provider framework
-- [quackage](https://github.com/stevenvelozo/quackage) - Build tooling
+- [pict](https://github.com/fable-retold/pict) - Core Pict framework
+- [pict-view](https://github.com/fable-retold/pict-view) - View base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Provider base class
+- [fable](https://github.com/fable-retold/fable) - Service provider framework
+- [quackage](https://github.com/fable-retold/quackage) - Build tooling
 
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/stevenvelozo/pict-application/blob/main/LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/fable-retold/pict-application/blob/main/LICENSE) for details.

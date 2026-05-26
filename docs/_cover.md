@@ -7,7 +7,7 @@
 - View coordination and data marshaling
 - Seamless integration with Fable, Pict, and Pict-View
 
-[GitHub](https://github.com/stevenvelozo/pict-application)
+[GitHub](https://github.com/fable-retold/pict-application)
 [Get Started](#pict-application)
 
 <!-- docuserve:examples:start -->
