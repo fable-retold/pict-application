@@ -30,11 +30,11 @@
         "@eslint/js": "^9.28.0",
         "browser-env": "^3.3.0",
         "eslint": "^9.28.0",
-        "pict": "^1.0.368",
-        "pict-docuserve": "^1.3.3",
+        "pict": "^1.0.372",
+        "pict-docuserve": "^1.4.4",
         "pict-provider": "^1.0.13",
         "pict-view": "^1.0.68",
-        "quackage": "^1.2.4",
+        "quackage": "^1.3.0",
         "typescript": "^5.9.3"
     },
     "mocha": {
